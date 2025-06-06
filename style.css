@@ -1,0 +1,141 @@
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.login-container {
+    background: white;
+    border-radius: 20px;
+    padding: 30px;
+    max-width: 320px;
+    width: 90%;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
+
+.dashboard-container {
+    background: white;
+    border-radius: 20px;
+    padding: 30px;
+    max-width: 1000px;
+    width: 90%;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    font-weight: bold;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+
+.login-btn, .exit-btn {
+    background: #667eea;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.login-btn:hover, .exit-btn:hover {
+    background: #5865c3;
+}
+
+.hidden {
+    display: none !important;
+}
+
+.dashboard-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.stats-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+.stat-card {
+    background: #f9f9f9;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.03);
+}
+
+.stat-value {
+    font-size: 1.8rem;
+    font-weight: bold;
+    margin-top: 10px;
+    color: #667eea;
+}
+
+.status-indicator {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+}
+
+.status-on {
+    background-color: #2ed573;
+    box-shadow: 0 0 10px #2ed573;
+}
+
+.status-off {
+    background-color: #ff4757;
+    box-shadow: 0 0 10px #ff4757;
+}
+
+.warning-message {
+    background: #ffe8e8;
+    color: #d63031;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 10px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.chart-container {
+    background: white;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.03);
+}
+
+.system-note {
+    background: #e8f4fd;
+    padding: 15px;
+    border-radius: 10px;
+    color: #0984e3;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.last-update {
+    text-align: center;
+    font-size: 0.9rem;
+    color: #666;
+    margin-top: 10px;
+}
